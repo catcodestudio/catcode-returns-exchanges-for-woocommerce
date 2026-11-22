@@ -1,0 +1,923 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Returns & Exchanges Manager\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: catcode-returns-exchanges-for-woocommerce\n"
+
+#: includes/Admin/RequestsPage.php
+msgid "%1$s — %2$d day left"
+msgid_plural "%1$s — %2$d days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/RequestsPage.php
+msgid "%1$s — %2$d day overdue"
+msgid_plural "%1$s — %2$d days overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/RequestsPage.php
+msgid "%s — today"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"14 days is the minimum under Ukrainian consumer law and the EU withdrawal "
+"right. 0 = no limit. Used for returns."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "A claim can be filed once the order has been delivered."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"A page with the %s shortcode: customers without an account find their order "
+"by number and e-mail / phone. Registered customers use the \"Returns\" tab "
+"in My Account."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "A request can be sent only for orders in these statuses."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "A return can be requested once the order has been delivered."
+msgstr ""
+
+#: includes/Admin/RequestsTable.php
+msgid "All"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Account.php
+msgid "All requests"
+msgstr ""
+
+#: includes/Admin/RequestsTable.php
+msgid "Amount"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Approved — awaiting the item"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Carrier"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid "CatCode"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid "CatCode Returns & Exchanges Manager for WooCommerce"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid ""
+"CatCode Returns & Exchanges Manager requires an active WooCommerce "
+"installation."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Change the waybill number"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Changed my mind"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Choose a reason"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Choose a reason for the return."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Choose at least one item and its quantity."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Choose how you would like the request to be resolved."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Choose the defect"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid ""
+"Choose the items you want to return or exchange. The item must keep its "
+"original look, packaging and labels."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Choose what is wrong with the item."
+msgstr ""
+
+#: includes/Admin/RequestsTable.php
+msgid "Claim"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Claim %1$s filed by the customer (%2$s)."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Claim %1$s received — %2$s"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Claim %1$s: %2$s"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Claim %1$s: %2$s."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Claim %s has been filed. We have e-mailed you a confirmation."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Claim period"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Claim until %s"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Claim — order #%s"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/SettingsPage.php
+#: includes/Front/Account.php
+msgid "Claims"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"Claims for defects (warranty claims, Czech reklamace): a claim period in "
+"months and a deadline to resolve each claim"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Closed"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/SettingsPage.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Comment"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Confirm the request and report every status change"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Contact for the answer"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Create the page"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "Created"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Admin/SettingsPage.php
+msgid "Customer"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Customer can ask for"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Customers can request a return or exchange online"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"Czech law: a claim has to be resolved and the consumer told within 30 days "
+"of the claim, unless a longer period is agreed with the consumer (§ 19 of "
+"the Consumer Protection Act). The date is shown in the admin, in My Account "
+"and in the e-mails. 0 = no deadline. Used for claims."
+msgstr ""
+
+#: includes/Admin/RequestsTable.php includes/Front/Form.php
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Deadline to resolve"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Defect"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Defective or damaged item"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Describe the defect: what happens and since when."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid ""
+"Describe the problem; for an exchange, say which size or colour you need."
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Did not fit (size / shape)"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Does not match the description"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "E-mail about every new request"
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "E-mail or phone"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "E-mail the customer about the change"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "E-mails"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "E.g. the address to send the item to, or why the request was rejected."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Enable"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Enter the waybill number."
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid ""
+"Enter your order number and the e-mail or phone number you used when "
+"ordering."
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Exchange"
+msgstr ""
+
+#: includes/Front/Account.php
+msgid "File a claim"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "File the claim"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Mailer.php
+#: includes/Front/Form.php
+msgid "Filed on"
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "Find the order"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "History"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "How it was resolved:"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "How should the claim be resolved?"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"In the EU a consumer can claim a defect that shows within two years of "
+"receiving the goods (§ 2165 of the Czech Civil Code). 0 = no limit. Used for"
+" claims."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/SettingsPage.php
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Mailer.php
+#: includes/Front/Form.php
+msgid "Item"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Item received"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Items"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Make the comment required"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Message from the store"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Message from the store:"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Message to the customer"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Message to the customer: %s"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Missing parts or accessories"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Money refunded"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "New"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "New claim %1$s for order #%2$s"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "New return request %1$s for order #%2$s"
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "No order matches this number and e-mail / phone."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "No return requests for this order."
+msgstr ""
+
+#: includes/Admin/RequestsTable.php
+msgid "No return requests yet."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Nova Poshta"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid ""
+"One of the selected items can no longer be returned. Refresh the page and "
+"try again."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"One per line. Leave empty to use the default list in the site language."
+msgstr ""
+
+#: includes/Core/Eligibility.php includes/Front/GuestForm.php
+msgid "Online claims are switched off in this store."
+msgstr ""
+
+#: includes/Core/Eligibility.php includes/Front/GuestForm.php
+msgid "Online return requests are switched off in this store."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Open the request"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Order"
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "Order number"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Order statuses"
+msgstr ""
+
+#: includes/Front/Account.php
+msgid "Orders you can file a claim for"
+msgstr ""
+
+#: includes/Front/Account.php
+msgid "Orders you can return"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Other"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Other carrier"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Page for guests"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Please describe the problem in the comment."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid ""
+"Please send the item back and enter the return waybill number on the request"
+" page, so we can track it."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "Price"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Settings.php
+msgid "Price reduction"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Price reduction granted"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Private note (not shown to the customer)"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Mailer.php
+#: includes/Front/Form.php
+msgid "Qty"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Qty with a defect"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Reason"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Reasons"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Settings.php
+msgid "Refund"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Rejected"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Repair"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Repaired — item sent back"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Replacement order"
+msgstr ""
+
+#: includes/Core/Statuses.php
+msgid "Replacement sent"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Request"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid ""
+"Request %s has been sent. We have e-mailed you a copy and will reply soon."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Request created by the customer."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Request updated."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Requested resolution"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php includes/Core/Plugin.php
+msgid "Requests"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Requests are"
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "Requests for this order"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+msgid "Resolve by"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Resolve by %s."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "Resolved on"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Resolved on %s"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Resolved on:"
+msgstr ""
+
+#: includes/Front/Account.php
+msgid "Return / exchange"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Return or exchange — order #%s"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Return period"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Return qty"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Return request %1$s created by the customer (%2$s)."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Return request %1$s received — %2$s"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Return request %1$s: %2$s"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Return request %1$s: %2$s."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Return requests"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Return until %s"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Return waybill"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Return waybill:"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Return waybill: %1$s %2$s"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid ""
+"Return, exchange and warranty claim requests from the customer account or a "
+"guest form: item and quantity picker, reasons, a return or claim period, a "
+"deadline to resolve claims, request statuses, return waybill tracking and "
+"e-mail notifications."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Account.php
+msgid "Returns"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/SettingsPage.php
+#: includes/Front/Account.php
+msgid "Returns and exchanges"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Returns and exchanges within a return period"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Returns settings"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "Save"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Save settings"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Search requests"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Send request"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Sent the item back? Enter the waybill number"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Core/Plugin.php
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Settings saved."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Admin/RequestsTable.php
+#: includes/Core/Mailer.php includes/Front/Form.php
+msgid "Status"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Status: %1$s → %2$s"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Store"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Store e-mail"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Text above the form"
+msgstr ""
+
+#: includes/Front/Form.php includes/Front/GuestForm.php
+msgid "The form has expired. Please reload the page and try again."
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "The item stopped working"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "The page could not be created."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "The page has been created and selected."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "The period for claims on this order ended on %s."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "The quantity is larger than what can be returned for this item."
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "The request could not be saved. Please try again later."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "The return period for this order ended on %s."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "The status of your request %1$s has changed: %2$s."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "There are no items left in this order that a claim can be filed for."
+msgstr ""
+
+#: includes/Core/Eligibility.php
+msgid "There are no items left in this order that can be returned."
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "This link is no longer valid. Look the order up again."
+msgstr ""
+
+#: includes/Front/Account.php includes/Front/Form.php
+msgid "This order was not found."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Account.php
+#: includes/Front/Form.php includes/Front/GuestForm.php
+msgid "This request was not found."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid ""
+"Tip: customers without an account can send a request through a page with the"
+" [catcode_returns_form] shortcode — choose that page in the settings."
+msgstr ""
+
+#: includes/Front/GuestForm.php
+msgid "Too many attempts. Please try again in 15 minutes."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Total"
+msgstr ""
+
+#: includes/Core/Requests.php
+msgid "Ukrposhta"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Update the request"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "View"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "View the request"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Visible defect or damage"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "Waybill number"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "Waybill saved. We will let you know when the parcel arrives."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid ""
+"We have received your claim %s. This e-mail confirms when you filed it and "
+"what it is about."
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid ""
+"We have received your request %s. We will review it and let you know what "
+"happens next."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "We will resolve it by"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "We will resolve it within %d day of receiving the claim."
+msgid_plural "We will resolve it within %d days of receiving the claim."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Core/Mailer.php
+msgid "We will resolve the claim and let you know by %s at the latest."
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "What is wrong with the item?"
+msgstr ""
+
+#: includes/Front/Form.php
+msgid "What would you like?"
+msgstr ""
+
+#: includes/Core/Mailer.php
+msgid "Why the claim was rejected:"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid ""
+"With claims, the forms, the My Account tab and the e-mails speak of claims, "
+"and the confirmation e-mails carry the date of the claim, the requested "
+"resolution and, once resolved, the date and the way it was resolved."
+msgstr ""
+
+#: includes/Admin/RequestsPage.php
+msgid "Write in the message to the customer why the claim is rejected."
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "Wrong item delivered"
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid "You can file a claim for a defect of the goods you received."
+msgstr ""
+
+#: includes/Core/Settings.php
+msgid ""
+"You can file a claim for a defect within %d month of receiving the goods."
+msgid_plural ""
+"You can file a claim for a defect within %d months of receiving the goods."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Core/Settings.php
+msgid ""
+"You can return or exchange an item within %d day of receiving it. The item "
+"must keep its original look, packaging and labels."
+msgid_plural ""
+"You can return or exchange an item within %d days of receiving it. The item "
+"must keep its original look, packaging and labels."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Front/Account.php
+msgid ""
+"You have no claims yet. A claim can be filed for a delivered order within "
+"the claim period."
+msgstr ""
+
+#: includes/Front/Account.php
+msgid ""
+"You have no return requests yet. A return can be requested for a delivered "
+"order within the return period."
+msgstr ""
+
+#: includes/Front/Account.php
+msgid "Your requests"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "Your return conditions. Leave empty for the default text."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "days after the order is completed"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "days from the day the claim is filed"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid "https://catcode.com.ua"
+msgstr ""
+
+#: catcode-returns-exchanges-for-woocommerce.php
+msgid ""
+"https://catcode.com.ua/modules/catcode-returns-exchanges-for-woocommerce/"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "months after the order is completed"
+msgstr ""
+
+#: includes/Admin/RequestsPage.php includes/Front/Form.php
+msgid "track"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php
+msgid "— not set —"
+msgstr ""

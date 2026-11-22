@@ -1,0 +1,16 @@
+.catcode-rma-card { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 12px 18px; margin: 0 0 16px; }
+.catcode-rma-card h2 { margin-top: .4em; }
+.catcode-rma-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 16px; align-items: start; margin-top: 12px; }
+@media (max-width: 960px) { .catcode-rma-grid { grid-template-columns: 1fr; } }
+.catcode-rma-badge { padding: 3px 9px; border-radius: 3px; background: #eef2f7; font-weight: 600; font-size: 12px; white-space: nowrap; }
+.catcode-rma-badge--new { background: #dbe9ff; color: #0a3d91; }
+.catcode-rma-badge--approved, .catcode-rma-badge--received { background: #fff4d6; color: #6b4e00; }
+.catcode-rma-badge--refunded, .catcode-rma-badge--exchanged, .catcode-rma-badge--repaired, .catcode-rma-badge--discounted, .catcode-rma-badge--closed { background: #e3f5e8; color: #0f5b23; }
+.wp-list-table .catcode-rma-badge { display: inline-block; white-space: normal; line-height: 1.4; }
+.catcode-rma-due--late { color: #b32d2e; font-weight: 600; }
+.catcode-rma-badge--rejected { background: #fbe7e7; color: #8a1f1f; }
+.catcode-rma-history { margin: 0; }
+.catcode-rma-history time { color: #646970; margin-right: 6px; }
+.catcode-rma-msg { margin: 6px 0 0; }
+.catcode-rma-msg--ok { color: #0f5b23; }
+.catcode-rma-msg--error { color: #b32d2e; }

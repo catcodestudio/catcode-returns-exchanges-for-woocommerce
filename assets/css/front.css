@@ -1,0 +1,18 @@
+.catcode-rma { margin: 0 0 2em; }
+.catcode-rma-items select { min-width: 64px; }
+.catcode-rma-form textarea, .catcode-rma-form select#catcode-rma-reason { width: 100%; max-width: 560px; box-sizing: border-box; }
+.catcode-rma-resolution { border: 0; padding: 0; margin: 0 0 1em; }
+.catcode-rma-resolution legend { font-weight: 600; margin-bottom: .4em; }
+.catcode-rma-resolution label { margin-right: 1.2em; display: inline-block; }
+.catcode-rma-policy { opacity: .85; }
+.catcode-rma-status { padding: 2px 8px; border-radius: 3px; font-size: .8em; background: #eef2f7; color: #1d2327; vertical-align: middle; }
+.catcode-rma-status--approved, .catcode-rma-status--received { background: #fff4d6; }
+.catcode-rma-status--refunded, .catcode-rma-status--exchanged, .catcode-rma-status--repaired, .catcode-rma-status--discounted, .catcode-rma-status--closed { background: #e3f5e8; }
+.catcode-rma-status--rejected { background: #fbe7e7; }
+.catcode-rma-waybill { margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.catcode-rma-waybill h4 { flex-basis: 100%; margin: 0 0 .3em; }
+.catcode-rma-waybill input[type="text"] { max-width: 220px; }
+.catcode-rma-summary th { width: 35%; }
+@media (max-width: 480px) {
+	.catcode-rma-waybill select, .catcode-rma-waybill input[type="text"], .catcode-rma-waybill button { width: 100%; max-width: none; }
+}
